@@ -2,11 +2,25 @@
     "students": [
         {
             "name": {
-                "surname": "Zhang",
-                "first_name": "San"
+                "surname": "Liu",
+                "first_name": "Xiyuan"
             },
-            "birthday": "2005-03-15",
-            "email": "zhangsan@example.com",
+            "sex": "Male",
+            "birthday": {
+                "year": 2006,
+                "month": 2,
+                "date": 24
+            },
+            "id":{
+                "passport": "EM1446462",
+                "mainland": "430406200410270182"
+            },
+            "address":{
+                "line1": "Apt 4B",
+                "line2": "123 Main St",
+                "line3": "Changsha"
+            },
+            "email": "liuxiyuan26hk@163.com",
             "phone": "13800000001",
             "IELTS": 7.5,
             "schools": [
@@ -24,28 +38,21 @@
         },
         {
             "name": "Li Si",
-            "birthday": "2004-08-22",
-            "email": "lisi@example.com",
-            "phone": "13800000002",
-            "IELTS": 6.0
-        },
-        {
-            "name": "Wang Wu",
-            "birthday": "2003-11-05",
-            "email": "wangwu@example.com",
-            "phone": "13800000003",
-            "IELTS": 7.5
-        },
-        {
-            "name": "Zhao Liu",
             "birthday": {
                 "year": 2006,
                 "month": 2,
                 "date": 24
             },
-            "email": "zhaoliu@example.com",
-            "phone": "13800000004",
-            "IELTS": 5.0
+            "email": "lisi@example.com",
+            "phone": "13800000002",
+            "IELTS": 6.0,
+            "schools": [
+                {
+                    "name": "hku",
+                    "username": "testacc",
+                    "password": "Offer2026"
+                }
+            ]
         }
     ]
 }

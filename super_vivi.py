@@ -2,6 +2,7 @@ import json
 import time
 import requests
 import selenium
+from schools.cityu import cityu
 from schools.hku import hku
 
 # 1. 读取 JSON 文件
@@ -17,5 +18,8 @@ for student in data['students']:
     for school in student['schools']:
         if school['name'] == "hku":
             print("appling for hku")
-            hku(student)
+            hku(student, school)
+        elif school['name'] == "cityu":
+            print("appling for cityu")
+            cityu(student, school)
     print("-" * 20)
