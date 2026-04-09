@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 def cityu(student, school):
     # 初始化浏览器（确保你电脑有 Chrome）
     options = Options()
-    options.binary_location = "/usr/bin/chromium-browser"
+    # options.binary_location = "/usr/bin/chromium-browser"
 
     driver = webdriver.Chrome(
         options=options

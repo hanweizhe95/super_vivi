@@ -22,7 +22,33 @@
             },
             "email": "liuxiyuan26hk@163.com",
             "phone": "13800000001",
-            "IELTS": 7.5,
+            "academic_qualifications":[
+                {
+                    "is_current": true,
+                    "qualification": "Bachelor's Degree",
+                    "abbreviation": "BA",
+                    "major": "Broadcasting",
+                    "mode_of_study": "full-time",
+                    "duration": 4,
+                    "honours_classification": "Not Applicable",
+                    "overall_average_score": "89.75/100",
+                    "awarding_place": "China",
+                    "awarding_institution": "Tongji University",
+                    "present_stage": "almost done",
+                    "date_of_award": "07-01-2026",
+                    "english": false
+                }
+            ],
+            "IELTS": {
+                "MM": 6,
+                "YYYY": 2025,
+                "L": 8.0,
+                "R": 8.0,
+                "W": 6.5,
+                "S": 6.0,
+                "O": 7.0,
+                "ID": "25AU502156LIUX468A"
+            },
             "schools": [
                 {
                     "name": "hku",
@@ -37,7 +63,10 @@
             ]
         },
         {
-            "name": "Li Si",
+            "name": {
+                "surname": "Li",
+                "first_name": "Si"
+            },
             "birthday": {
                 "year": 2006,
                 "month": 2,
